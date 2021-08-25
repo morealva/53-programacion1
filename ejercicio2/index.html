@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bhaskara</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Navbar</span>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-3">
+
+        <div class="row">
+            <div class="col-4">
+
+                <div class="mb-3">
+                    <label class="form-label">A</label>
+                    <input id="inp_a" class="form-control" type="number" placeholder="ingrese coeficiente">
+                </div>
+        
+                <div class="mb-3">
+                    <label class="form-label">B</label>
+                    <input id="inp_b" class="form-control" type="number" placeholder="ingrese coeficiente">
+                </div>
+        
+                <div class="mb-3">
+                    <label class="form-label">C</label>
+                    <input id="inp_c" class="form-control" type="number" placeholder="ingrese termino independiente">
+                </div>
+        
+                <button id="btn_calcular" class="btn btn-outline-primary" >calcular raices </button>
+
+
+            </div>
+         </div>
+
+         <div class="col-8">
+            <h3 id="resultado"></h3>
+         </div>
+    </div>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
