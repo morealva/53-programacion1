@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Ej1</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-4">
+
+                <div class="mb-3">
+                    <label class="form-label">nombre</label>
+                    <input id="inp_nom" placeholder="Ingrese nombre" type="text" class="form-control">
+                </div>
+    
+                <div class="mb-3">
+                    <label class="form-label">apellido</label>
+                    <input id="inp_ape" placeholder="ingrese apellido" type="text" class="form-control">
+                </div>
+    
+                <div class="mb-3">
+                    <label class="form-label">dni</label>
+                    <input id="inp_dni" placeholder="ingrese dni" type="number" class="form-control">
+                </div>
+
+                <button id="btn_guardar" class="btn btn-success">guardar cliente</button>
+
+            </div>
+        </div>    
+
+    </div>
+
+    <!--Cargamos libreria-->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+    <!--Nos conectamos con firebase-->
+    <script src="firebase.js"></script>
+
+    <script src="main.js"></script>
+
+    
+</body>
+</html>
