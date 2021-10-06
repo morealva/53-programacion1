@@ -101,3 +101,6 @@ function actualizar_cliente()
     document.getElementById("btn_actualizar").style.display = 'none';
 }
 
+
+
+
